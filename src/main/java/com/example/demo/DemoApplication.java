@@ -18,6 +18,6 @@ class HelloController{
 	@GetMapping("/")
 	public String hello()
 	{
-		return "Hello, This is Spring  Boot Application For cloud";
+		return "Hello, This is Spring  Boot Application For cloud.";
 	}
 }
